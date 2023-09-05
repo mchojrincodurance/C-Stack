@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/StackTests.dir/main.cpp.o CMakeFiles/StackTests.dir/EmptyStackException.cc.o CMakeFiles/StackTests.dir/Stack.cc.o -o StackTests  lib/libgtest_main.a lib/libgtest.a 

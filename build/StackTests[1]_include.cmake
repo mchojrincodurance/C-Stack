@@ -1,5 +1,0 @@
-if(EXISTS "/home/mauro/CLionProjects/stack/build/StackTests[1]_tests.cmake")
-  include("/home/mauro/CLionProjects/stack/build/StackTests[1]_tests.cmake")
-else()
-  add_test(StackTests_NOT_BUILT StackTests_NOT_BUILT)
-endif()
