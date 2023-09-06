@@ -1,7 +1,3 @@
-//
-// Created by mauro on 6/09/23.
-//
-
 #ifndef STACK_EMPTYSTACKEXCEPTION_H
 #define STACK_EMPTYSTACKEXCEPTION_H
 
