@@ -16,13 +16,10 @@ enable_testing()
 set(
         SOURCES
         main.cpp
-        EmptyStackException.cc
-        EmptyStackException.h
-        Stack.cc
-        Stack.h
 )
 
 add_executable(StackTests "${SOURCES}")
+
 target_link_libraries(StackTests gtest_main)
 
 include(GoogleTest)
