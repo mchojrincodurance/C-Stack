@@ -16,9 +16,13 @@ enable_testing()
 set(
         SOURCES
         main.cpp
+        StringStack.cc
+        StringStack.h
 )
 
-add_executable(StackTests "${SOURCES}")
+add_executable(StackTests "${SOURCES}"
+        StringStack.cc
+        StringStack.h)
 
 target_link_libraries(StackTests gtest_main)
 
